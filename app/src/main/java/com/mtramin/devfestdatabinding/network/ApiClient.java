@@ -1,5 +1,6 @@
 package com.mtramin.devfestdatabinding.network;
 
+import retrofit.GsonConverterFactory;
 import retrofit.Retrofit;
 
 /**
@@ -22,6 +23,7 @@ public class ApiClient {
     private static DevFestApi createDevFestApi() {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(DEVFEST_BASE_URL)
+                .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
         return retrofit.create(DevFestApi.class);

@@ -1,5 +1,10 @@
 package com.mtramin.devfestdatabinding.network;
 
+import com.mtramin.devfestdatabinding.data.Speaker;
+
+import java.util.List;
+
+import retrofit.Call;
 import retrofit.http.GET;
 
 /**
@@ -8,5 +13,5 @@ import retrofit.http.GET;
 public interface DevFestApi {
 
     @GET("/data/speakers.json")
-    void getSpeakers();
+    Call<List<Speaker>> getSpeakers();
 }

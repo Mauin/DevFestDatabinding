@@ -32,6 +32,7 @@
             android:layout_below="@id/welcome_text_space"
             android:layout_centerHorizontal="true"
             android:scaleType="centerInside"
+            android:src="@drawable/ic_gdghh_android"
             tools:src="@drawable/ic_gdghh_android" />
 
         <Space
@@ -46,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/welcome_image_space"
             android:layout_centerHorizontal="true"
-            android:text="@string/enter" />
+            android:text="@string/enter"/>
 
     </RelativeLayout>
 </layout>

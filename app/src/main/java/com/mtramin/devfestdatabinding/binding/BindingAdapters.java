@@ -1,4 +1,4 @@
-package com.mtramin.devfestdatabinding.util;
+package com.mtramin.devfestdatabinding.binding;
 
 import android.databinding.BindingAdapter;
 import android.graphics.drawable.Drawable;

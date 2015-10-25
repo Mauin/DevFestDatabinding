@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">DevFest Databinding</string>
     <string name="enter">Let\'s see the speakers</string>
+    <string name="welcome_text">Hey guys!</string>
 </resources>
