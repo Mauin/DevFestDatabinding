@@ -5,4 +5,8 @@
 
     <dimen name="default_margin">16dp</dimen>
     <dimen name="small_margin">8dp</dimen>
+    <dimen name="speaker_image_size">100dp</dimen>
+    <dimen name="textsize_title">18sp</dimen>
+    <dimen name="textsize_small">8sp</dimen>
+    <dimen name="padding_mini">4dp</dimen>
 </resources>

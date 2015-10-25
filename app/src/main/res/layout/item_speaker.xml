@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="speaker"
+            type="com.mtramin.devfestdatabinding.data.Speaker"/>
+    </data>
 
     <android.support.v7.widget.CardView
         android:id="@+id/speaker_item"
@@ -16,25 +24,51 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <ImageView
                 android:id="@+id/speaker_image"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="@dimen/speaker_image_size"
+                android:layout_height="@dimen/speaker_image_size"
+                app:imageUrl="@{speaker.getPhotoUrl}"
                 tools:src="@color/colorPrimary"/>
 
             <Space
                 android:id="@+id/speaker_image_space"
                 android:layout_width="@dimen/small_margin"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/speaker_image"/>
 
             <TextView
                 android:id="@+id/speaker_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@+id/speaker_image_space"
-                tools:text="Matry McFly" />
+                android:textSize="@dimen/textsize_title"
+                android:textStyle="bold"
+                android:text="@{speaker.name}"
+                tools:text="Awesome DevFest Speaker" />
+
+            <TextView
+                android:id="@+id/speaker_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/speaker_name"
+                android:layout_toRightOf="@id/speaker_image_space"
+                android:text="@{speaker.title}"
+                android:visibility="@{speaker.title.isEmpty ? View.GONE : View.VISIBLE}"
+                tools:text="GDG Speaker"/>
+
+            <TextView
+                android:id="@+id/speaker_company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/speaker_title"
+                android:layout_toRightOf="@id/speaker_image_space"
+                android:paddingTop="@dimen/padding_mini"
+                android:textSize="@dimen/textsize_small"
+                android:text="@{@string/working_at(speaker.company)}"
+                tools:text="Working @ DevFest"/>
 
         </RelativeLayout>
 

@@ -8,7 +8,7 @@ import retrofit.Retrofit;
  */
 public class ApiClient {
 
-    private static final String DEVFEST_BASE_URL = "http://devfest.de/";
+    public static final String DEVFEST_BASE_URL = "http://devfest.de/";
 
     private static DevFestApi instance = null;
 

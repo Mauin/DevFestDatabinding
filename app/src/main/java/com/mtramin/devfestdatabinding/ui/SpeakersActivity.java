@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,6 +18,8 @@ import com.mtramin.devfestdatabinding.databinding.ItemSpeakerBinding;
 import com.mtramin.devfestdatabinding.network.ApiClient;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import retrofit.Callback;
@@ -67,8 +68,19 @@ public class SpeakersActivity extends AppCompatActivity {
         private List<Speaker> speakers = new ArrayList<>();
 
         public void setSpeakers(List<Speaker> speakers) {
+            sortSpeakers(speakers);
+
             this.speakers = speakers;
             notifyDataSetChanged();
+        }
+
+        private void sortSpeakers(List<Speaker> speakers) {
+            Collections.sort(speakers, new Comparator<Speaker>() {
+                @Override
+                public int compare(Speaker lhs, Speaker rhs) {
+                    return lhs.name.compareTo(rhs.name);
+                }
+            });
         }
 
         @Override
@@ -85,6 +97,7 @@ public class SpeakersActivity extends AppCompatActivity {
 
         @Override
         public void onBindViewHolder(SpeakerViewHolder holder, int position) {
+            holder.binding.setSpeaker(this.speakers.get(position));
         }
     }
 
