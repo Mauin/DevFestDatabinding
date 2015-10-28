@@ -17,7 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.SpeakersActivity"></activity>
+        <activity android:name=".ui.VersionListActivity" />
+        <activity android:name=".ui.AddVersionActivity"></activity>
     </application>
 
 </manifest>

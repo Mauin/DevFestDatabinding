@@ -1,9 +1,10 @@
 <resources>
-    <string name="app_name">DevFest Databinding</string>
-    <string name="enter">Let\'s see the speakers</string>
+    <string name="app_name">Android Version List</string>
+    <string name="enter">Let\'s see the list</string>
     <string name="welcome_text">Hello DevFest!</string>
-    <string name="working_at">Working at %s</string>
+    <string name="released">Released in %s</string>
+    <string name="version">%1$s (API %2$d)</string>
+    <string name="add">add</string>
+    <string name="version_name">Android Version Codename</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

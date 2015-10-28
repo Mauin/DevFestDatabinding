@@ -3,7 +3,6 @@ package com.mtramin.devfestdatabinding.binding;
 import android.databinding.BindingAdapter;
 import android.graphics.drawable.Drawable;
 import android.support.v4.content.ContextCompat;
-import android.util.Log;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -16,12 +15,9 @@ public class BindingAdapters {
 
     @BindingAdapter("bind:imageUrl")
     public static void loadImage(ImageView view, String url) {
-        Log.e("TEST", "loadImage ");
-
         view.setBackgroundColor(ContextCompat.getColor(view.getContext(), R.color.colorPrimary));
         Glide.with(view.getContext())
                 .load(url)
-                .asBitmap()
                 .into(view);
     }
 
@@ -29,7 +25,6 @@ public class BindingAdapters {
     public static void loadImage(ImageView view, String url, Drawable errorDrawable) {
         Glide.with(view.getContext())
                 .load(url)
-                .asBitmap()
                 .error(errorDrawable)
                 .into(view);
     }

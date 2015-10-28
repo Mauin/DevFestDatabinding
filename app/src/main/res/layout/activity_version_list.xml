@@ -6,7 +6,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.mtramin.devfestdatabinding.ui.SpeakersActivity">
+        tools:context=".ui.VersionListActivity">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/speaker_list"
