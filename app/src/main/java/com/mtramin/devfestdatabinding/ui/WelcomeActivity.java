@@ -1,26 +1,24 @@
 package com.mtramin.devfestdatabinding.ui;
 
 import android.content.Intent;
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.TextView;
 
 import com.mtramin.devfestdatabinding.R;
-import com.mtramin.devfestdatabinding.databinding.ActivityWelcomeBinding;
 
 public class WelcomeActivity extends AppCompatActivity {
 
-    private ActivityWelcomeBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_welcome);
+        setContentView(R.layout.activity_welcome);
 
-        binding.welcomeText.setText(R.string.welcome_text);
+        ((TextView) findViewById(R.id.welcome_text)).setText(R.string.welcome_text);
 
-        binding.welcomeButton.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.welcome_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 showSpeakerList();

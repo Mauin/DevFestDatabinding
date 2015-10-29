@@ -1,19 +1,15 @@
 package com.mtramin.devfestdatabinding.viewmodel;
 
-import android.databinding.BaseObservable;
-import android.databinding.Bindable;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 
-import com.mtramin.devfestdatabinding.BR;
-
 /**
  * TODO: JAVADOC
  */
-public class AddVersionViewModel extends BaseObservable {
+public class AddVersionViewModel {
 
     private String versionName;
 
@@ -23,10 +19,8 @@ public class AddVersionViewModel extends BaseObservable {
 
     public void setVersionName(String name) {
         this.versionName = name;
-        notifyPropertyChanged(BR.versionNameError);
     }
 
-    @Bindable
     public String getVersionNameError() {
         if (TextUtils.isEmpty(versionName)) {
             return null;
