@@ -25,5 +25,7 @@ public class AddVersionActivity extends AppCompatActivity {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_add_version);
         viewModel = new AddVersionViewModel();
         binding.setViewModel(viewModel);
+
+        setTitle(R.string.title_add_version);
     }
 }

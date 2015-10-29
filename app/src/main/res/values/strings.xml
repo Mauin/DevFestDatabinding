@@ -6,5 +6,6 @@
     <string name="version">%1$s (API %2$d)</string>
     <string name="add">add</string>
     <string name="version_name">Android Version Codename</string>
+    <string name="title_add_version">Add new Android Version</string>
 
 </resources>
