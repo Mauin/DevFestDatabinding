@@ -22,8 +22,8 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/version_name"
                 android:text="@{viewModel.versionName}"
-                app:error="@{viewModel.versionNameError}"
-                app:addTextChangedListener="@{viewModel.textChanged}"/>
+                android:error="@{viewModel.versionNameError}"
+                android:addTextChangedListener="@{viewModel.textChanged}"/>
 
         </android.support.design.widget.TextInputLayout>
 

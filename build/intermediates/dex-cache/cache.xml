@@ -1,2 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0_fcfb7818d4d9a23b0c0abc82bd2f3a65fbfac4ea.jar" />
+    </item>
+    <item
+        jar="/Users/m.ramin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0_ffb8452c26886665fc729586d2fd660b71911fd4.jar" />
+    </item>
+    <item
+        jar="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
+        <dex dex="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.1.0_789f790fd29d7b87ee0837bb7e025d9579f5e309.jar" />
+    </item>
+    <item
+        jar="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/exploded-aar/com.android.databinding/library/1.0-rc3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="acaeec786da68e5cfc30134c36cb5645a8a0c6ba">
+        <dex dex="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/pre-dexed/debug/com.android.databinding-library-1.0-rc3_2ba55bc2fbcc82753e1d7b129a4dbfb954525726.jar" />
+    </item>
+    <item
+        jar="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.0_efdc692ad1b89a6d5e6b6a920baedc7bfde59dfd.jar" />
+    </item>
+    <item
+        jar="/Users/m.ramin/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/converter-gson/2.0.0-beta2/392c3d09e0f5e7087544093cc0cb23bb9c7af5fa/converter-gson-2.0.0-beta2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="392c3d09e0f5e7087544093cc0cb23bb9c7af5fa">
+        <dex dex="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.0-beta2_564a16a5f2e0157270056c708dbc533e5bf95b48.jar" />
+    </item>
+    <item
+        jar="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.0-rc3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2af1f443cdb8cb78e1195b9b99013a6089ab35b0">
+        <dex dex="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/pre-dexed/debug/com.android.databinding-adapters-1.0-rc3_f426be3ec14066c7a262a6de1066b3c8b3aa026a.jar" />
+    </item>
+    <item
+        jar="/Users/m.ramin/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/pre-dexed/debug/gson-2.3.1_ba1e005cdee10b665fb9b980cf47af08c7353726.jar" />
+    </item>
+    <item
+        jar="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.0_6d671cca0dfab97c1c87f6be2c16ef162c03c79e.jar" />
+    </item>
+    <item
+        jar="/Users/m.ramin/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/pre-dexed/debug/glide-3.6.1_d6661f517256c71cb8758d71f84bbc71cc4ddf0f.jar" />
+    </item>
+    <item
+        jar="/Users/m.ramin/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/pre-dexed/debug/okio-1.6.0_62c9fd24d1237e553133bd38abf0d081726f1dcb.jar" />
+    </item>
+    <item
+        jar="/Users/m.ramin/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/2.0.0-beta2/880d9e0997b2d1bfc98e0d121ced33ee5d04aac4/retrofit-2.0.0-beta2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
+        <dex dex="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/pre-dexed/debug/retrofit-2.0.0-beta2_f8016a7420290f0325db0edf42474d4c3e71ac21.jar" />
+    </item>
+    <item
+        jar="/Users/m.ramin/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/1.0-rc5/4d15bfec5956b906a26527dbde26a4fc84326611/baseLibrary-1.0-rc5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4d15bfec5956b906a26527dbde26a4fc84326611">
+        <dex dex="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/pre-dexed/debug/baseLibrary-1.0-rc5_8652befb820364e636639ee34dbe78b84db2675c.jar" />
+    </item>
+    <item
+        jar="/Users/m.ramin/dev/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0_86728decbf94d469b45d7cadd2ff3e6948484157.jar" />
+    </item>
+    <item
+        jar="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.0_b2180125a790e2e1206b331a46662a7529f126c0.jar" />
+    </item>
+    <item
+        jar="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="/Users/m.ramin/dev/android/DevFestDatabinding/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.0_b10f678c8dde3d67cb8edc73a85e09091f79e7b0.jar" />
+    </item>
+
+</items>
