@@ -1,0 +1,19 @@
+Name: Marvin Ramin
+
+Position: Android developer
+Working at: mytaxi (Intelligent Apps GmbH)
+
+Bio: Marvin is an Android developer at mytaxi in Hamburg. There he makes the city just that little bit smarter and easier to navigate by developing the car2go app.
+He has a huge passion for the Android platform, clean code, and an eye for design. If there is something new, cool out in the Android world, he will
+try it out and just because it's in "BETA" doesn't mean you can't write a sample app with it!
+
+Twitter: twitter.com/mauin
+GitHub: github.com/mauin
+
+Talk: The Android "Data Binding Library" - Don't be scared of your XMLs!
+
+At Google I/O 2015 Google came out and announced the "Data Binding Library" for Android.
+It wants to put "code" into your XMLs. And that isn't necessarily a bad thing!
+While still in Beta, there are already many interesting points to take away from this Library that show us that Google does indeed care
+about the architecture in your apps! This talk will show you how the Data Binding Library works and how you can work with it.
+We will see how to use it and take a look into the land of generated code to see what powers the library internally.
